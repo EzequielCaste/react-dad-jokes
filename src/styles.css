@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  color: #78909c;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #8bc6ec 0%,
+    #8bc6ec 50%,
+    #9599e2 50%,
+    #9599e2 100%
+  );
+}

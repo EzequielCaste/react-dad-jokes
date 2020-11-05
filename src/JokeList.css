@@ -1,0 +1,103 @@
+.JokeList {
+  display: flex;
+  width: 80%;
+  height: 80%;
+}
+.JokeList-sidebar {
+  background: #9575cd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  z-index: 2;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1),
+    inset 0 0 25px #7e57c2;
+}
+.JokeList-title {
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 0.6rem;
+}
+.JokeList-title span {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.JokeList-sidebar img {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+.JokeList-jokes {
+  height: 90%;
+  background: white;
+  align-self: center;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+}
+.JokeList-spinner {
+  text-align: center;
+  color: white;
+}
+.JokeList-getmore {
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  outline: none;
+  border: 0;
+  word-spacing: 1rem;
+  margin: 1rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  /* width: 50%; */
+  border-radius: 2rem;
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(
+    135deg,
+    #8bc6ec 0%,
+    #8bc6ec 50%,
+    #9599e2 50%,
+    #9599e2 100%
+  );
+  cursor: pointer;
+  transition: 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+}
+.JokeList-getmore:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
